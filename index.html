@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lg and Psw</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">Регистрация Аккаунта</h1>
+        <form class="login_form" action="home.html" method="post" name="form" onsubmit="return validated ()"> 
+             <div class="font">Только Email</div>
+             <input autocomplete="off" type="text" name="email">
+             <div id="email_error">Введите верный Email</div>
+             <div class="font font2">Пароль</div>
+             <input type="password" name="password">
+             <div id="pass_error">Введите верный Пароль</div>
+             <button type="submit">Вход</button>
+        </form>
+    </div>
+<script src="index.js"></script>
+
+</body>
+</html>
